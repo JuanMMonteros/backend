@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author monte
  */
 @RestController
-
+@CrossOrigin(origins = "https://portafolio-3dca8.web.app/")
 public class HardSkillController {
     @Autowired IHardSkillRepository iHardSkillRepository;
     @Autowired IPersonaService iPersonaService;
