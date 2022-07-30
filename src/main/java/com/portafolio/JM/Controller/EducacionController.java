@@ -23,7 +23,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @author monte
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
 public class EducacionController {
     @Autowired IEducacionRepository iEducacionRepository;
     @Autowired IPersonaService iPersonaService;
